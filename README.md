@@ -6,7 +6,7 @@
 ![Swift5.1](https://img.shields.io/badge/swift-5.1-blue.svg)
 ![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
 
-Just a testbad to try out new SwiftWebUI features.
+Just a testbed to try out new SwiftWebUI features.
 
 <center><img src="http://zeezide.com/img/Tinker2.png" /></center>
 
