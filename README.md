@@ -8,6 +8,8 @@
 
 Just a testbad to try out new SwiftWebUI features.
 
+<center><img src="http://zeezide.com/img/Tinker2.png" /></center>
+
 ### Who
 
 Brought to you by
