@@ -8,7 +8,7 @@
 
 Just a testbed to try out new SwiftWebUI features.
 
-<center><img src="http://zeezide.com/img/Tinker2.png" /></center>
+<center><img src="http://zeezide.com/img/Tinker2.png" width="890" height="798" /></center>
 
 ### Who
 
