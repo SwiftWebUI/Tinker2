@@ -88,6 +88,7 @@
 		E87289E422C798E800849CAA = {
 			isa = PBXGroup;
 			children = (
+				E8E7912522CCDF19000F6BFA /* Sources */,
 				E8DE2A0622C7BB740058B75B /* README.md */,
 				E87289EF22C798E800849CAA /* Tinker2 */,
 				E8DE2A0822C7BB740058B75B /* LICENSE.txt */,
@@ -108,8 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				E87289F022C798E800849CAA /* AppDelegate.swift */,
-				E8DE29CC22C7B9510058B75B /* Views */,
-				E8DE29CB22C7B9490058B75B /* Models */,
 				E87289F222C798EA00849CAA /* Assets.xcassets */,
 				E87289F422C798EA00849CAA /* MainMenu.xib */,
 				E87289F722C798EA00849CAA /* Info.plist */,
@@ -133,7 +132,6 @@
 				E8DE29D622C7B95B0058B75B /* MainTreeOld.swift */,
 				E8DE29E622C7B9890058B75B /* Tests */,
 				E8DE29E722C7B9C10058B75B /* Landmarks */,
-				E8DE29DF22C7B96F0058B75B /* AvocadoToast */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +176,24 @@
 				E8DE29D322C7B95B0058B75B /* TestSections.swift */,
 			);
 			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		E8E7912522CCDF19000F6BFA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E8E7912622CCDF20000F6BFA /* Tinker2 */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E8E7912622CCDF20000F6BFA /* Tinker2 */ = {
+			isa = PBXGroup;
+			children = (
+				E8DE29CC22C7B9510058B75B /* Views */,
+				E8DE29CB22C7B9490058B75B /* Models */,
+				E8DE29DF22C7B96F0058B75B /* AvocadoToast */,
+			);
+			path = Tinker2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
