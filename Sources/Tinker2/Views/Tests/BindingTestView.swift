@@ -8,6 +8,8 @@
 
 #if canImport(Combine)
   import Combine
+#elseif canImport(OpenCombine)
+  import OpenCombine
 #endif
 import SwiftWebUI
 
@@ -29,7 +31,7 @@ struct BindingTestView: View {
     VStack(alignment: .leading) {
       Text("Hello \(store.i)")
       //BindingObjectBindingButton(store: store)
-      Button({ self.store.advance() }) { Text("Advance") }
+      Button("Advance") { self.store.advance() }
     }
   }
 }

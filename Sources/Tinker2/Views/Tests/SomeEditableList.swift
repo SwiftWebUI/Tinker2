@@ -36,7 +36,7 @@ struct SomeEditableList: View {
               print("tapped:", item)
             }
           Spacer()
-          Button({
+          Button(action: {
             if let idx = self.items.firstIndex(where: { $0.id == item.id }),
                idx > self.items.startIndex
             {
@@ -53,12 +53,10 @@ struct SomeEditableList: View {
         TextField($newName)
         Text(newName)
       }
-      Button({
+      Button("Add") {
         self.items.append(
           Person(firstname: self.newName, lastname: "Duck", age: 42)
         )
-      }) {
-        Text("Add")
       }
     }
     .padding()

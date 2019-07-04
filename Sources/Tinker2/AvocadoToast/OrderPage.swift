@@ -50,7 +50,7 @@ struct OrderPage: View {
         }
       }
       Section {
-        Button(submitOrder) {
+        Button(action: submitOrder) {
           Text("🍞")
           Text("Order")
         }
@@ -85,9 +85,7 @@ struct OrderPage2: View {
       Stepper(value: $order.quantity, in: 1...10) {
         Text("Quantity: \(order.quantity)")
       }
-      Button(submitOrder) {
-        Text("Order")
-      }
+      Button("Order", action: submitOrder)
     }
   }
 }

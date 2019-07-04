@@ -79,9 +79,8 @@ struct MainTreeOld : View {
       AvocadoToastTest()
 
       Group {
-        Button({ print("Hello World!") }) {
-          Text("Click me!")
-        }.padding()
+        Button("Click me!") { print("Hello World!") }
+          .padding()
           .isEnabled(makeItBold)
 
         ButtonRow()

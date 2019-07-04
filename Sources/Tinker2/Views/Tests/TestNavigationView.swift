@@ -108,15 +108,15 @@ struct TestSimpleNavigationView: View {
           Text("First Page")
         }
 
-        NavigationButton(destination: MyFirstPage()) {
+        NavigationLink(destination: MyFirstPage()) {
           Image(systemName: "envelope")
           Text("First Page")
         }
-        NavigationButton(destination: MySecondPage() /*MainTreeOld()*/) {
+        NavigationLink(destination: MySecondPage() /*MainTreeOld()*/) {
           Image(systemName: "power")
           Text("Second Page")
         }
-        NavigationButton(destination: MainTreeOld()) {
+        NavigationLink(destination: MainTreeOld()) {
           Image(systemName: "sun.max")
           Text("MainTree")
         }

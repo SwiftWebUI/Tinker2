@@ -15,10 +15,9 @@ struct ButtonRow : View {
     let title : String
     
     var body: some View {
-      Button({
-        self.counter += 1; print("clicked:", self.title, self.counter)
-      }) {
-        Text("\(title)[\(self.counter)]")
+      Button("\(title)[\(self.counter)]") {
+        self.counter += 1
+        print("clicked:", self.title, self.counter)
       }
     }
   }
@@ -31,6 +30,4 @@ struct ButtonRow : View {
       }
     }
   }
-  
 }
-
