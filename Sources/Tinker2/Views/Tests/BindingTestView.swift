@@ -6,7 +6,10 @@
 //  Copyright © 2019 Helge Heß. All rights reserved.
 //
 
-import Combine
+#if canImport(Combine)
+  import Combine
+#endif
+import SwiftWebUI
 
 class BindingTestStore: BindableObject {
   static let global = BindingTestStore()
@@ -17,22 +20,6 @@ class BindingTestStore: BindableObject {
     i += 1
   }
 }
-
-import SwiftWebUI
-
-#if false
-  // Passing ObjectBinding's down via Binding doesn't actually work in SwiftUI,
-  // right?
-
-struct BindingObjectBindingButton: View {
-  
-  @Binding var store : BindingTestStore
-  
-  var body: some View {
-    Button({ self.store.advance() }) { Text("Advance") }
-  }
-}
-#endif
 
 struct BindingTestView: View {
   
