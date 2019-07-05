@@ -17,38 +17,38 @@ struct MainTreeWithTabs: View {
         
         OrderPage()
           .tag(10)
-          .tabItemLabel(Text("🥑 Order"))
+          .tabItem(Text("🥑 Order"))
 
         /* Landmarks thing
         TestSections()
           .tag(6)
-          .tabItemLabel(Text("Sections"))
+          .tabItem(Text("Sections"))
          */
 
         TestNavigationView() // TestListView() // 
           .tag(2)
-          .tabItemLabel(Text("Navigation"))
+          .tabItem(Text("Navigation"))
         
         MainTreeOld()
           .tag(0)
-          .tabItemLabel(Text("Test Stuff"))
+          .tabItem(Text("Test Stuff"))
         
         BindingTestView()
           .tag(88)
-          .tabItemLabel(Text("Bindings"))
+          .tabItem(Text("Bindings"))
         
         SFSymbolsTest()
           .tag(89)
-          .tabItemLabel(Text("SFSymbols"))
+          .tabItem(Text("SFSymbols"))
         
         Image("turtlerock.jpg")
           .tag(99)
-          .tabItemLabel(Text("Nice Image"))
+          .tabItem(Text("Nice Image"))
         
         /*
         MainTreeWithHTMLTabs()
           .tag(1)
-          .tabItemLabel(Text("Nested"))
+          .tabItem(Text("Nested"))
 
         ForEach(3...4) { item in
           Text("Blub Body Auto Tag\(item)")
