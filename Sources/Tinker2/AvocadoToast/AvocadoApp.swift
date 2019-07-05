@@ -15,10 +15,10 @@ struct AvocadoApp: View {
       TabbedView {
         
         OrderPage()
-          .tabItemLabel(Text("Order"))
+          .tabItem(Text("Order"))
         
         OrderHistory(previousOrders: previousOrders)
-          .tabItemLabel(Text("History"))
+          .tabItem(Text("History"))
       }
     }
     .padding()
