@@ -13,7 +13,7 @@ struct MainTreeWithTabs: View {
   var body: some View {
     SUISegment(width: 1.0 /*, height: 1.0*/) {
       
-      TabbedView {
+      TabView {
         
         OrderPage()
           .tag(10)

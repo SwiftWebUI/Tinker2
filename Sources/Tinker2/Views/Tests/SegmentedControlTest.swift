@@ -21,7 +21,7 @@ struct SegmentedControlTest: View {
         Text(self.items[index])
           .tag(index)
       }
-    }.tapAction {
+    }.onTapGesture {
       print("currentIndex: \(self.currentIndex)")
     }
   }

@@ -12,7 +12,7 @@ struct AvocadoApp: View {
   
   var body: some View {
     SUISegment(width: 1.0) {
-      TabbedView {
+      TabView {
         
         OrderPage()
           .tabItem(Text("Order"))

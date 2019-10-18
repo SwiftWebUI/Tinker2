@@ -32,7 +32,7 @@ struct SomeEditableList: View {
       ForEach(items) { item in
         HStack {
           Text("\(item.firstname) \(item.lastname) (\(item.age))")
-            .tapAction {
+            .onTapGesture {
               print("tapped:", item)
             }
           Spacer()
